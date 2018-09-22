@@ -18,6 +18,8 @@ end
 
 def get_japanese_emoticon(file_path, western_emoticon)
   emoticon_library = load_library(file_path)
+  if emoticon_library["get_emoticon"].include?(western_emoticon)
+    
   binding.pry
   
 end
