@@ -11,6 +11,7 @@ def load_library(file_path)
     get_emoticon[emoticon_pair[0]] = emoticon_pair[1]
   end
   binding.pry
+  emoticon_library = get_meaning.merge(get_emoticon)
 end
 
 def get_japanese_emoticon
