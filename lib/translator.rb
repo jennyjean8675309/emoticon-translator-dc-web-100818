@@ -12,7 +12,7 @@ def load_library(file_path)
   end
   binding.pry
   emoticon_library = {}
-  emoticon_library['get_meaning]
+  emoticon_library['get_meaning'] = get_meaning
 end
 
 def get_japanese_emoticon
