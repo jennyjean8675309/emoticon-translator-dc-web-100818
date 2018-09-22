@@ -21,8 +21,7 @@ def get_japanese_emoticon(file_path, western_emoticon)
   if emoticon_library["get_emoticon"].include?(western_emoticon)
     emoticon_library["get_emoticon"][western_emoticon]
   else
-    
-  binding.pry
+    "Sorry, that emoticon was not found"
 end
   
 end
